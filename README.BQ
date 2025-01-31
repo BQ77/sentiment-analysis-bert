@@ -1,10 +1,13 @@
 # Sentiment Analysis with BERT  
-*Analyzing Twitter sentiment using HuggingFace Transformers*  
+*Classifying Twitter sentiment using HuggingFace Transformers*  
 
 ## Overview  
-- Fine-tuned BERT model for sentiment analysis with **85% accuracy**.  
-- Integrated with a Python API for live text processing.  
+- Fine-tuned a BERT model for sentiment analysis (positive/negative) with **85% accuracy** on 10k+ tweets.  
+- Deployed via FastAPI for real-time text processing.  
 
 ## How to Run  
-1. Install: `pip install transformers`  
-2. Run: `python predict.py` 
+1. Install: `pip install transformers torch`  
+2. Run: `python predict.py`  
+
+## Dataset  
+[Twitter Sentiment Dataset](https://www.kaggle.com/datasets/kazanova/sentiment140)  
